@@ -2,6 +2,7 @@ html, body{
     margin:0;
     padding: 0;
     color: white;
+    box-sizing: border-box;
     font-family: "Roboto Thin", sans-serif;
 }
 .firstPage{
@@ -9,9 +10,11 @@ html, body{
     background-image:linear-gradient(black, white), url("../images/HERO.jpg");
     background-position: center;
     background-repeat: no-repeat;
+
     background-blend-mode: saturation;
 
 }
+
 .header{
     height: 20%;
 }
@@ -19,11 +22,16 @@ html, body{
 .punchline{
     height: 80%;
 }
+.height{
+    height: 200px;
+}
+
 .blue{
     background-image: url("../images/fondservices.png");
+}
+.portfolio, .blue{
     padding-left: 8em;
     padding-right: 8em;
-
 }
 
 
