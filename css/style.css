@@ -19,6 +19,12 @@ html, body{
 .punchline{
     height: 80%;
 }
+.blue{
+    background-image: url("../images/fondservices.png");
+    padding-left: 8em;
+    padding-right: 8em;
+
+}
 
 
 
