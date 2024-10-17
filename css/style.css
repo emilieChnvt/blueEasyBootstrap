@@ -26,10 +26,10 @@ html, body{
     height: 200px;
 }
 
-.blue{
+.blue, .twitter{
     background-image: url("../images/fondservices.png");
 }
-.portfolio, .blue, .default{
+.portfolio, .blue, .default, .twitter{
     padding-left: 8em;
     padding-right: 8em;
 }
