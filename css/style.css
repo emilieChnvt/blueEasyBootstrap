@@ -29,7 +29,7 @@ html, body{
 .blue{
     background-image: url("../images/fondservices.png");
 }
-.portfolio, .blue{
+.portfolio, .blue, .default{
     padding-left: 8em;
     padding-right: 8em;
 }
