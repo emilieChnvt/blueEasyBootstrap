@@ -42,6 +42,16 @@ html, body{
     background-color: #4bcaff;
     padding: 1em 8em
 }
+.lienFoot:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+    width:1px;
+    height:2em;
+    background-color: grey;
+}
+
 
 
 
