@@ -14,7 +14,9 @@ html, body{
     background-blend-mode: saturation;
 
 }
-
+.colorblue{
+    color: #4bcaff
+}
 .header{
     height: 20%;
 }
@@ -29,9 +31,16 @@ html, body{
 .blue, .twitter{
     background-image: url("../images/fondservices.png");
 }
-.portfolio, .blue, .default, .twitter{
+.portfolio, .blue, .default, .twitter, .testimonials, .footer{
     padding-left: 8em;
     padding-right: 8em;
+}
+.letter{
+    letter-spacing: 1.5px;
+}
+.boutton{
+    background-color: #4bcaff;
+    padding: 1em 8em
 }
 
 
