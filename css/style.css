@@ -10,28 +10,15 @@ html, body{
     background-image:linear-gradient(black, white), url("../images/HERO.jpg");
     background-position: center;
     background-repeat: no-repeat;
-
     background-blend-mode: saturation;
-
 }
 .colorblue{
     color: #4bcaff
 }
-.header{
-    height: 20%;
-}
-
-.punchline{
-    height: 80%;
-}
-.height{
-    height: 200px;
-}
-
 .blue, .twitter{
     background-image: url("../images/fondservices.png");
 }
-.portfolio, .blue, .default, .twitter, .testimonials, .footer{
+.boite{
     padding-left: 8em;
     padding-right: 8em;
 }
@@ -50,6 +37,29 @@ html, body{
     width:1px;
     height:2em;
     background-color: grey;
+}
+.subTitle{
+    color: white;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0;
+}
+.subTitle::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width:2em;
+    height:2px;
+    background-color: white;
+}
+.p, .noir{
+    color: black;
+}
+.p::before{
+    background-color: black;
 }
 
 
